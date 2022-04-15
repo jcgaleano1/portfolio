@@ -1,0 +1,50 @@
+.about {
+    background-color: #d8d467fb;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.decoration-about {
+    position: absolute;
+    top: -40px;
+    right: -50px;
+    height: 300px;
+    width: 300px;
+    clip-path: circle(50% at 50% 50%);
+    opacity: 0.3;
+    background-color: rgba(192, 64, 64, 0.39); 
+}
+
+.decoration-about-1 {
+    position: absolute;
+    bottom: -20%;
+    left: -100px;
+    height: 300px;
+    width: 300px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: rgba(189, 133, 133, 0.322);
+}
+
+.text-about, .title-about {
+    color: black;
+}
+
+.container-text-about {
+    padding: 10vw;
+    z-index: 9;
+}
+
+.title-about {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 35px;
+}
+
+.text-about {
+    line-height: 2rem;
+    font-size: 18px;
+}

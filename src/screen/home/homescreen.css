@@ -1,0 +1,205 @@
+.main-homescreen {
+    background-color: #f6f4d2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.logo {
+    position: absolute;
+    top: 40px;
+    width: 70px;
+    height: 70px;
+}
+.title-homescreen {
+    color: black;
+    text-transform: uppercase;
+}
+.container-name{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.Typewriter{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.text-homescreen{
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+}
+
+.square-homescreen-1 {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    width: 4px;
+    height: 40px;
+    background-color: black;
+}
+
+.square-homescreen-2 {
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    width: 4px;
+    height: 40px;
+    background-color: black;
+}
+
+.square-homescreen-3 {
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    width: 40px;
+    height: 4px;
+    background-color: black;
+}
+
+.square-homescreen-4 {
+    position: absolute;
+    bottom: 250px;
+    display: block;
+    left: 80px;
+    width: 20px;
+    height: 4px;
+    background-color: black;
+}
+
+.square-homescreen-5 {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 25px;
+    height: 4px;
+    background-color: black;
+}
+.square-homescreen-6 {
+    position: absolute;
+    display: block;
+    bottom: 250px;
+    right: 90px;
+    width: 20px;
+    height: 4px;
+    background-color: black;
+}
+.square-homescreen-7 {
+    position: absolute;
+    top: 5px;
+    right: 28px;
+    width: 4px;
+    height: 40px;
+    background-color: black;
+}
+.square-homescreen-8 {
+    position: absolute;
+    bottom: 50px;
+    right: 27px;
+    width: 4px;
+    height: 40px;
+    background-color: black;
+}
+.square-homescreen-9{
+    position: absolute;
+    top: 230px;
+    right: 30px;
+    width: 40px;
+    height: 4px;
+    background-color: black;
+}
+.square-homescreen-10{
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    width: 20px;
+    height: 4px;
+    background-color: black;
+}
+.square-homescreen-11{
+    position: absolute;
+    top: 80px;
+    right: 350px;
+    width: 20px;
+    height: 4px;
+    background-color: black;
+}
+.square-homescreen-12{
+    position: absolute;
+    bottom: 80px;
+    right: 350px;
+    width: 20px;
+    height: 4px;
+    background-color: black;
+}
+.square-homescreen-13{
+    position: absolute;
+    bottom: 80px;
+    left: 350px;
+    width: 20px;
+    height: 4px;
+    background-color: black;
+}
+.decoration{
+    position: absolute;
+    top: 230px;
+    right: 0;
+    width: 200px;
+    height: 420px;
+    background-color: rgba(128, 128, 128, 0.219);
+}
+.decoration-2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 320px;
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+@media screen and (max-width: 700px) {
+    .title-homescreen{
+        font-size: 25px;
+    }
+    .Typewriter{
+        font-size: 34px;
+    }
+    .text-homescreen{
+        font-size: 25px;
+    }
+    .square-homescreen-4 {
+       display: none;
+    }
+    .square-homescreen-6 {
+        display: none;
+    }
+    .square-homescreen-7{
+        right: 34px;
+    }
+    .square-homescreen-1{
+        left: 34px;
+    }
+    .square-homescreen-2{
+        left: 34px;
+    }
+    .square-homescreen-8{
+        right: 34px;
+    }
+    .decoration{
+        width: 130px;
+    }
+    .decoration-2{
+        width: 130px;
+    }
+   
+}
+
