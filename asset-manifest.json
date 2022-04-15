@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.61a3abf0.css",
+    "main.js": "/portfolio/static/js/main.ecf5538d.js",
+    "static/media/moviemaker.jpg": "/portfolio/static/media/moviemaker.97fa20f61517ea735fef.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.61a3abf0.css.map": "/portfolio/static/css/main.61a3abf0.css.map",
+    "main.ecf5538d.js.map": "/portfolio/static/js/main.ecf5538d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61a3abf0.css",
+    "static/js/main.ecf5538d.js"
+  ]
+}
