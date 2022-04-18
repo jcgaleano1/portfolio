@@ -1,9 +1,9 @@
 .about {
     background-color: #d8d467fb;
-    
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     position: relative;
     overflow: hidden;
 }
@@ -33,18 +33,77 @@
     color: black;
 }
 
-.container-text-about {
-    padding: 10vw;
-    z-index: 9;
-}
-
 .title-about {
     text-align: center;
-    margin-bottom: 80px;
+    margin: 80px 0px 50px 0px;
     font-size: 35px;
 }
 
 .text-about {
-    line-height: 2rem;
-    font-size: 18px;
+    line-height: 1.8rem;
+    font-size: 16px;
+} 
+
+.container-about{
+    margin: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
+
+.container-text, .container-img{
+    flex: 1;
+}
+.container-text{
+    padding: 25px;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.circle-container{
+    width: 350px;
+    height: 350px;
+    border: 5px solid black;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+}
+.circle-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.4);
+}
+
+.circle-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+    .container-about{
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+    .circle-container{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .title-about {
+        font-size: 28px;
+    }
+}
+
+
+

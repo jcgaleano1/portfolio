@@ -2,7 +2,8 @@ import React, {useEffect} from 'react';
 import './homescreen.css';
 import Typewriter from 'typewriter-effect';
 import Aos from 'aos';
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
+import logo from '../../assets/logoblack.png';
 
 const HomeScreen = () => {
 
@@ -12,7 +13,7 @@ const HomeScreen = () => {
 
   return (
     <div  className='main-homescreen'>
-       <img data-aos='fade-up' data-aos-duration="1000" src="./logoblack.png" alt="" className='logo'/>
+       <img data-aos='fade-up' data-aos-duration="1000" src={logo} alt="" className='logo'/>
       <div className="container-name">
         <h1 data-aos='fade-up' data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out" className='title-homescreen'>I am </h1>
         <Typewriter options={{

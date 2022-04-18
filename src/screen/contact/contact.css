@@ -105,6 +105,20 @@
     color: black;
     background: transparent;
 }
+.cv{
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+}
+.cv:hover{
+    padding: 12px 15px;
+    letter-spacing: 1px;
+}
 
 
 @media screen and (max-width: 1052px) {
@@ -162,6 +176,12 @@
 
 }
 
+@media screen and (max-width: 700px) {
+    .title-contact {
+        font-size: 28px;
+    }
+}
+
 @media screen and (max-width: 540px) {
 
     .title-talk-contact p {
@@ -171,12 +191,6 @@
 
     .title-talk {
         font-size: 3.8rem;
-    }
-
-    .title-contact {
-        font-size: 35px;
-        text-transform: uppercase;
-        margin-bottom: 60px;
     }
 
     .title-talk-contact {

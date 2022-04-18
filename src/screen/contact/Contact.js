@@ -6,6 +6,7 @@ import Swal from 'sweetalert2';
 import ScrollToTop from 'react-scroll-to-top';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import CV from '../../assets/cv.pdf';
 
 const Contact = () => {
     
@@ -53,6 +54,7 @@ const Contact = () => {
                 <div data-aos='fade-down' data-aos-delay="600" data-aos-duration="1200" data-aos-easing="ease-in-out" className="title-talk-contact">
                     <p>Are you interested in my profile??</p>
                     <h1 className='title-talk'>Let's talk a little</h1>
+                    <a className='cv' href={CV} download>Download CV</a>
                 </div>
                 <div data-aos='fade-up' data-aos-delay="600" data-aos-duration="1200" data-aos-easing="ease-in-out" className="form-content">
                     <form ref={formRef} className="form" onSubmit={handleSubmit}>
