@@ -56,7 +56,7 @@ const Projects = () => {
                         <span></span><span></span><span></span><span></span>
                     </div>
                     <div className="content">
-                        <h2>Shop-ecommercer</h2>
+                        <h2>Shop-ecommerce</h2>
                         <p>This project was made with Html, Css, javascript and Jquery, this is just a frontend view</p>
                         <div className="buttons-container">
                             <a href="https://github.com/jcgaleano1/shopping-web"><FaGithub /></a>

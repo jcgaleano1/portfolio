@@ -183,14 +183,16 @@
 }
 
 @media screen and (max-width: 540px) {
-
+    .title-contact {
+        font-size: 26px;
+    }
     .title-talk-contact p {
         font-size: 1.4rem;
         text-align: center;
     }
 
     .title-talk {
-        font-size: 3.8rem;
+        font-size: 3.6rem;
     }
 
     .title-talk-contact {
@@ -198,11 +200,11 @@
     }
 
     .form input {
-        width: 300px;
+        width: 250px;
     }
 
     .form textarea {
-        width: 300px;
+        width: 250px;
     }
 
     .form button {

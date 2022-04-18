@@ -332,3 +332,32 @@
     }
 
 }
+
+@media screen and (max-width: 400px) {
+    .title-projects {
+        font-size: 26px;
+    }
+    .content {
+        margin-top: 20px;
+        padding: 12px;
+    }
+    
+    .content p {
+        padding: 14px;
+    }
+    
+    .content a {
+        width: 68px;
+        text-decoration: none;
+        border-radius: 50px;
+        border: 1px solid white;
+        display: block;
+        margin: auto;
+        padding: 7px;
+        color: #fff;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+}
+

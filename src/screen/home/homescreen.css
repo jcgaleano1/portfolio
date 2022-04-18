@@ -167,6 +167,7 @@
 }
 
 @media screen and (max-width: 700px) {
+    
     .title-homescreen{
         font-size: 25px;
     }
@@ -175,6 +176,43 @@
     }
     .text-homescreen{
         font-size: 25px;
+    }
+    .square-homescreen-4 {
+       display: none;
+    }
+    .square-homescreen-6 {
+        display: none;
+    }
+    .square-homescreen-7{
+        right: 45px;
+    }
+    .square-homescreen-1{
+        left: 45px;
+    }
+    .square-homescreen-2{
+        left: 45px;
+    }
+    .square-homescreen-8{
+        right: 45px;
+    }
+    .decoration{
+        width: 130px;
+    }
+    .decoration-2{
+        width: 130px;
+    }
+   
+}
+
+@media screen and (max-width: 430px) {
+    .title-homescreen{
+        font-size: 22px;
+    }
+    .Typewriter{
+        font-size: 30px;
+    }
+    .text-homescreen{
+        font-size: 22px;
     }
     .square-homescreen-4 {
        display: none;
